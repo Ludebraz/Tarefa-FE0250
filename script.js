@@ -12,11 +12,9 @@ function isPalindrome(frase){
     return true
 }
 
-let arrayT2 = [8, 6, 4 , 1, 59, 7, 9, 89, 5, 3]
-
 function arrayMaxMin(arrayT2){
 
-    let arrayRetorno = [0, 0]
+    let arrayRetorno = [0,0]
     let aux = 0
     let n = arrayT2.length-1
         for(let j = 0; j < n; j++){
@@ -31,6 +29,6 @@ function arrayMaxMin(arrayT2){
 
         }
     arrayRetorno[0] = arrayT2[0]
-    arrayRetorno[1] = arrayT2[9]
+    arrayRetorno[1] = arrayT2[n]
     return arrayRetorno
 }
